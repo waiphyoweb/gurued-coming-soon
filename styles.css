@@ -1,0 +1,68 @@
+@font-face {
+  font-family: "cotext";
+  src: url("./assests/Co-Text.ttf") format("truetype");
+}
+
+body {
+  max-width: 1024px;
+  margin: auto;
+  font-family: "cotext";
+}
+
+.logo {
+  margin: auto;
+  width: 100%;
+}
+
+.motto {
+  margin: auto;
+  font-size: 48px;
+}
+
+.colored-word {
+  color: #f15a29;
+}
+
+.coming-soon {
+  color: #f15a29;
+  font-size: 24px;
+}
+
+.first-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #374151;
+  line-height: 2rem;
+  padding: 16px;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.announcement {
+  color: #374151;
+  line-height: 4rem;
+  padding: 16px;
+}
+
+.announcement-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+@media (max-width:600px) {
+  .announcement-container .robot {
+    display: none;
+  }
+
+  body {
+    text-align: center;
+  }
+
+  .first-container {
+    line-height: 3rem;
+  }
+}
